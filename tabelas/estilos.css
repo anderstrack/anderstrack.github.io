@@ -1,0 +1,10 @@
+
+td, th {
+border: 1px solid #dddddd;
+padding: 15px; /* Espaço ao redor das células */
+}
+
+table {
+/* Unifica bordas das células */
+border-collapse: collapse;
+}
