@@ -6,15 +6,33 @@
 <body>
 <h1 id="topo"> Café Star Bugs</h1>
 <h2> Pedido Online </h2>
+<h3> Preencha o formulário abaixo e clique em "Enviar Pedido" para solicitar uma caixa com grãos personalizados.</h3><br>
 
 <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
-	Nome:<br> <input type="text" value="Igor" name="Nome"> <br>
-	Sobrenome: <br> <input type="text" value="yepes" name="Sobrenome"><br>
-	Cor preferida: <br> 
-	<input type="radio" name="Cor preferida" value="Azul"> Azul
-	<input type="radio" name="Cor preferida" value="Vermelho"> Vermelho
-	<input type="radio" name="Cor preferida" value="Rosa"> Rosa <br>
-	<input type="submit" value="Enviar agora!">
+	Escolha a variedade dos grãos:
+	 <select name="variedade">
+		<option value = "Colombia"> Grãos da Colombia</option>
+		<option value = "Italia"> Grãos da Itália</option>
+		<option value = "Himalaia"> Grãos do Himalaia</option>
+		<option value = "Angola"> Grãos da Angola</option>
+
+	</select> <br><br>
+	Tipo:<br>
+	<input type = "radio" name="tipo" value = "inteiros"> Grãos inteiros. <br>
+	<input type = "radio" name="tipo" value = "moidos"> Grãos moidos. <br><br>
+	Extras:<br>
+	<input type ="checkbox" name="extras" value = "embalar"> Embalar Para presente.<br>
+	<input type ="checkbox" name="extras" value = "catalogo"> Quero um catálago com cafés especiais.<br><br>
+	Enviar para:<br>
+	Nome:<input type ="text" name="nome"><br>
+	Endereço:<input type ="text" name="endereco"><br>
+	Cidade:<input type ="text" name="cidade"><br>
+	Estado:<input type ="text" name="estado"><br>
+	CEP:<input type ="text" name="cep"><br><br>
+	Observações:<br>
+	<textarea name="observacoes"></textarea><br>
+	<input type="submit" value="Enviar Pedido">
+
 
 </form>
 
