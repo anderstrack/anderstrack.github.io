@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário</title>
+	<link rel="stylesheet" href="estilos pedidodetalhado.css">
+</head>
+<body>
+<h1 id="topo"> Café Star Bugs</h1>
+<h2> Pedido Online </h2>
+<h3> Preencha o formulário abaixo e clique em "Enviar Pedido" para </h3><br>
+
+
+<form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+	<table>
+		<tr>
+			<th colspan="2" class="formheader"> Dados de contato </th>
+		</tr>
+
+
+		<tr><td class="formlabel">Nome Completo:</td> <td class="formfield"> <input type="text" size="40" required placeholder="Jack Java Lee" name="nome"></td></tr>
+		<tr><td class="formlabel">Email:</td> <td class="formfield"> <input type="text" size="40" required placeholder="Jack.java.lee@gmail.com" name="email"></td></tr>
+		<tr><td class="formlabel">Telefone:</td> <td class="formfield"> <input type="text" size="40" required placeholder="(55) 99999 9999" name="Telefone"></td></tr><br>
+
+		
+		</table>
+
+	<table>
+		<tr>
+			<th colspan="2" class="formheader"> Informações do pedido </th>
+		</tr>
+	</table>
+
+			Variedade:
+		<select name="variedade">
+		<option value = "Colombia"> Grãos da Colombia</option>
+		<option value = "Italia"> Grãos da Itália</option>
+		<option value = "Himalaia"> Grãos do Himalaia</option>
+		<option value = "Angola"> Grãos da Angola</option>
+
+	</select> <br><br>
+	Tipo:<br>
+	<input type = "radio" name="tipo" value = "inteiros"> Grãos inteiros. <br>
+	<input type = "radio" name="tipo" value = "moidos"> Grãos moidos. <br><br>
+	Extras:<br>
+	<input type ="checkbox" name="extras" value = "embalar"> Embalar Para presente.<br>
+	<input type ="checkbox" name="extras" value = "catalogo"> Quero um catálago com cafés especiais.<br><br>
+	Enviar para:<br>
+	Nome:<input type ="text" name="nome"><br>
+	Endereço:<input type ="text" name="endereco"><br>
+	Cidade:<input type ="text" name="cidade"><br>
+	Estado:<input type ="text" name="estado"><br>
+	CEP:<input type ="text" name="cep"><br><br>
+	Observações:<br>
+	<textarea name="observacoes"></textarea><br>
+	<input type="submit" value="Enviar Pedido">
+
+
+</form>
+
+</body>
+</html>
