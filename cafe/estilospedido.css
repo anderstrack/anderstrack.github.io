@@ -1,0 +1,47 @@
+h1 {color: blue;}
+
+h2{
+	border-bottom: 6px solid;
+	color:red;}
+
+h3{
+	color: #000000;
+font-size: 25px;
+font-weight: bold}
+
+
+p {color: red; 
+   border-bottom: 6px solid;}
+
+.corpo{
+background-image: url('');
+background-repeat: no-repeat;
+background-size:10%;
+bottom: 0;
+color: black;
+left: 0;
+overflow: auto;
+padding: 3em;
+position: absolute;
+right: 0;
+top: 0;
+background-size: cover; 
+}
+
+
+.formlabel {
+	color: #000020;
+	text-align: right; ;}
+
+.formfield{
+	color: #000000;
+	font-weight:;
+
+}
+.formheader{
+	color: #000000;
+	text-align:left;
+	vertical-align: top;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
